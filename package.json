@@ -1,6 +1,6 @@
 {
   "name": "aura-node-db-migrate",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Simple and lightweight DB migration tool written in Node.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "echo this wont work"
   },
   "bin": {
-    "db-migrate": "./bin/db-migrate.js"
+    "db-migrate": "bin/db-migrate.js"
   },
   "publishConfig": {
     "registry": "https://ironsrc.jfrog.io/ironsrc/api/npm/npmjs-local"
