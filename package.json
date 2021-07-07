@@ -1,6 +1,6 @@
 {
   "name": "aura-node-db-migrate",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Simple and lightweight DB migration tool written in Node.js",
   "main": "index.js",
   "scripts": {
@@ -11,20 +11,17 @@
     "db-migrate": "./bin/db-migrate.js"
   },
   "publishConfig": {
-    "registry": "https://ironsrc.jfrog.io/ironsrc/api/npm/npmjs-local"
+    "registry": "https://ironsrc.jfrog.io/ironsrc/api/npm/npm-virtual"
   },
   "homepage": "https://github.com/ironsource-aura/aura-node-db-migrate",
   "repository": "https://github.com/ironsource-aura/aura-node-db-migrate.git",
   "author": "Tal Almagor <almagoric@gmail.com>",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://ironsrc.jfrog.io/ironsrc/api/npm/npmjs-local"
-  },
   "dependencies": {
     "bluebird": "^3.1.1",
     "cli-table2": "^0.1.9",
     "commander": "^2.9.0",
-    "knex": "^0.9.0",
+    "knex": "^0.95.6",
     "lodash": "^3.10.1",
     "log4js": "^0.6.29",
     "mysql": "^2.10.0",
