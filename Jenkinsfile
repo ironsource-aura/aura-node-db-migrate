@@ -1,5 +1,5 @@
 
-ci 'aura-automation-jenkins-slave', {
+ci 'ecs-global-slave', {
 
     env.group = "aura"
     env.team = "blue"
