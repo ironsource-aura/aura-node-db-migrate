@@ -1,6 +1,6 @@
 {
   "name": "aura-node-db-migrate",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Simple and lightweight DB migration tool written in Node.js",
   "main": "index.js",
   "scripts": {
